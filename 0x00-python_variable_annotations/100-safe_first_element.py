@@ -5,11 +5,10 @@ Desc: This python module contains a single typed-function.
 Author: Gizachew Bayness
 Date Created: Feb 2, 2023
 """
-from types import NoneType
 from typing import Union, Any, Sequence
 
 
-def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Duck-typed function"""
     if lst:
         return lst[0]
