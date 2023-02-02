@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 File: 102-type_checking.py
-Desc: This python module contains a pre-written function to be modified with necessary changes
-      and to be validated using mypy.
+Desc: This python module contains a pre-written function to be
+      modified with necessary changes and to be validated using mypy.
 Author: Gizachew Bayness
 Date Created: Feb 2, 2023
 """
