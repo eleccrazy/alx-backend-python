@@ -12,6 +12,6 @@ Date Created: Feb 2, 2023
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int | float]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[int,  float]) -> Tuple[str, float]:
     """Returns a type annotated tuple of k and v"""
     return (k, v ** 2)
