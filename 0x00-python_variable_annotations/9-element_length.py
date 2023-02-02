@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 File: 9-element_length.py
 Desc: This python module contains a function with some params and
