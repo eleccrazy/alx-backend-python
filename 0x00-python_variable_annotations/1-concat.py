@@ -1,4 +1,4 @@
-#!/usr/bin/env/ python3
+#!/usr/bin/env python3
 """
 File: 1-concat.py
 Desc: This python module contains a single type-annotated funtion
