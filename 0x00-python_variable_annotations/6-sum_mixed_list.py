@@ -7,9 +7,9 @@ Desc: This python module contains a type-annotated function which
 Author: Gizachew Bayness
 Date Created: Feb 2, 2023
 """
-from typing import Union
+from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: Union[int | float]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int | float]]) -> float:
     """Returns the sum of the numbers in the list as afloat"""
     return sum(mxd_lst)
