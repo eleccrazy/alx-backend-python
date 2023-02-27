@@ -1,4 +1,4 @@
-#!/usr/bin/env pytho3
+#!/usr/bin/env python3
 """
 File: test_utils.py
 Desc: This module contains python codes related to unittests
