@@ -6,7 +6,6 @@ Desc: This module contains python codes related to unittests
 Author: Gizachew Bayness
 Date Created: Feb 27, 2023
 """
-
 from client import GithubOrgClient
 from fixtures import TEST_PAYLOAD
 from parameterized import parameterized, parameterized_class
@@ -83,6 +82,13 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """A class method called before tests in an individual class are run"""
+        # def my_side_effect(url):
+        #     """ Side Effect function for test """
+        #     test_url = "https://api.github.com/orgs/google"
+        #     if url == test_url:
+        #         return cls.org_payload
+        #     return cls.repos_payload
+
         config = {'return_value.json.side_effect':
                   [
                       cls.org_payload, cls.repos_payload,
